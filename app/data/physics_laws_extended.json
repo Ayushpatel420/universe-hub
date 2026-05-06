@@ -1,0 +1,502 @@
+{
+  "beginner_level": [
+    {
+      "id": 1,
+      "name": "Newton's First Law of Motion",
+      "category": "Classical Mechanics",
+      "difficulty": "Beginner",
+      "formula": "F = 0 → v = constant",
+      "description": "An object at rest stays at rest, and an object in motion stays in motion unless acted upon by an external force.",
+      "explanation": "This law describes inertia - the resistance of an object to changes in its state of motion. Without external forces, objects maintain their current state.",
+      "examples": [
+        "A book on a table remains stationary",
+        "A moving car continues moving if no brakes are applied",
+        "Passengers lurch forward when a car suddenly stops"
+      ],
+      "real_world_applications": [
+        "Seatbelts in cars",
+        "Smooth curves in highways",
+        "Ice skating motion"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Newton's Second Law of Motion",
+      "category": "Classical Mechanics",
+      "difficulty": "Beginner",
+      "formula": "F = ma",
+      "description": "The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.",
+      "explanation": "Force equals mass times acceleration. A larger force produces greater acceleration, while larger mass requires more force for the same acceleration.",
+      "examples": [
+        "Pushing a shopping cart: harder push = faster acceleration",
+        "A golf ball accelerates faster than a bowling ball with same force",
+        "Rockets accelerate slowly when full of fuel, faster when fuel depletes"
+      ],
+      "real_world_applications": [
+        "Vehicle acceleration calculation",
+        "Elevator design",
+        "Sports equipment design"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Newton's Third Law of Motion",
+      "category": "Classical Mechanics",
+      "difficulty": "Beginner",
+      "formula": "F_action = -F_reaction",
+      "description": "For every action, there is an equal and opposite reaction.",
+      "explanation": "Forces always come in pairs. When one object exerts force on another, the second object exerts an equal force back in the opposite direction.",
+      "examples": [
+        "A swimmer pushing water backward propels forward",
+        "A rocket expels gas downward to move upward",
+        "Walking: feet push backward on ground, ground pushes forward on feet"
+      ],
+      "real_world_applications": [
+        "Jet propulsion",
+        "Swimming",
+        "Gun recoil"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Law of Universal Gravitation",
+      "category": "Classical Mechanics",
+      "difficulty": "Beginner",
+      "formula": "F = G(m₁m₂)/r²",
+      "description": "Every mass attracts every other mass with a force proportional to the product of their masses and inversely proportional to the square of distance between them.",
+      "explanation": "Gravity is a fundamental force that attracts all objects with mass. The force weakens with distance (inverse square law).",
+      "examples": [
+        "Earth pulls you downward with 9.8 m/s²",
+        "Moon orbits Earth due to gravitational attraction",
+        "Objects fall at the same rate (ignoring air resistance)"
+      ],
+      "real_world_applications": [
+        "Orbital mechanics",
+        "Weight calculation",
+        "Tidal forces"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Law of Conservation of Energy",
+      "category": "Thermodynamics",
+      "difficulty": "Beginner",
+      "formula": "E_total = KE + PE = constant",
+      "description": "Energy cannot be created or destroyed; it can only be converted from one form to another.",
+      "explanation": "Total energy in an isolated system remains constant. Energy transforms between kinetic (motion) and potential (stored) forms.",
+      "examples": [
+        "Swinging pendulum: PE at top converts to KE at bottom",
+        "Falling ball: PE converts to KE",
+        "Roller coaster: energy exchanges between KE and PE"
+      ],
+      "real_world_applications": [
+        "Power generation",
+        "Heat engines",
+        "Athletic performance"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Hooke's Law",
+      "category": "Elasticity",
+      "difficulty": "Beginner",
+      "formula": "F = -kx",
+      "description": "The force exerted by a spring is directly proportional to the displacement from its equilibrium position.",
+      "explanation": "Springs resist deformation with a restoring force proportional to how much they're stretched or compressed.",
+      "examples": [
+        "Stretching a rubber band",
+        "Compressing a spring toy",
+        "Trampoline bouncing"
+      ],
+      "real_world_applications": [
+        "Car suspension systems",
+        "Scales and balances",
+        "Seismic dampers in buildings"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Ohm's Law",
+      "category": "Electromagnetism",
+      "difficulty": "Beginner",
+      "formula": "V = IR",
+      "description": "The voltage across a conductor is directly proportional to the current flowing through it.",
+      "explanation": "Voltage (V) equals current (I) multiplied by resistance (R). This fundamental law governs electrical circuits.",
+      "examples": [
+        "LED brightness controlled by voltage",
+        "Heating element gets hotter with more current",
+        "Light bulb resistance determines power usage"
+      ],
+      "real_world_applications": [
+        "Electrical circuit design",
+        "Power calculations",
+        "Device safety"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Snell's Law of Refraction",
+      "category": "Optics",
+      "difficulty": "Beginner",
+      "formula": "n₁sin(θ₁) = n₂sin(θ₂)",
+      "description": "Light bends when passing between materials with different refractive indices.",
+      "explanation": "The angle of refraction depends on the ratio of refractive indices and the angle of incidence.",
+      "examples": [
+        "Spoon looks bent in water",
+        "Mirages in deserts",
+        "Rainbow formation"
+      ],
+      "real_world_applications": [
+        "Lenses and glasses",
+        "Fiber optics",
+        "Photography"
+      ]
+    }
+  ],
+  "intermediate_level": [
+    {
+      "id": 101,
+      "name": "Newton's Law of Cooling",
+      "category": "Thermodynamics",
+      "difficulty": "Intermediate",
+      "formula": "dT/dt = -k(T - T_ambient)",
+      "description": "The rate of cooling of an object is proportional to the difference between its temperature and the ambient temperature.",
+      "explanation": "Hot objects cool down faster when the temperature difference is larger. Cooling rate decreases as the object approaches ambient temperature.",
+      "examples": [
+        "Hot coffee cooling in a cup",
+        "Forged metal cooling after blacksmith work",
+        "Body temperature regulation"
+      ],
+      "real_world_applications": [
+        "Food storage",
+        "Industrial cooling systems",
+        "Medical applications"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Boyle's Law",
+      "category": "Thermodynamics",
+      "difficulty": "Intermediate",
+      "formula": "PV = constant (at constant temperature)",
+      "description": "The pressure of a gas is inversely proportional to its volume when temperature is constant.",
+      "explanation": "As a gas is compressed, its pressure increases proportionally. As it expands, pressure decreases.",
+      "examples": [
+        "Bicycle pump getting harder to push",
+        "Scuba tank pressure changes",
+        "Expanding balloon at high altitude"
+      ],
+      "real_world_applications": [
+        "Gas storage systems",
+        "Pneumatic tools",
+        "Medical equipment"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Charles's Law",
+      "category": "Thermodynamics",
+      "difficulty": "Intermediate",
+      "formula": "V/T = constant (at constant pressure)",
+      "description": "The volume of a gas is directly proportional to its absolute temperature when pressure is constant.",
+      "explanation": "Heating a gas causes it to expand; cooling causes it to contract.",
+      "examples": [
+        "Balloon expands when heated",
+        "Air in a heated room rises",
+        "Helium balloons shrink in cold weather"
+      ],
+      "real_world_applications": [
+        "Weather balloons",
+        "Hot air balloons",
+        "Gas thermometers"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Ampere's Law",
+      "category": "Electromagnetism",
+      "difficulty": "Intermediate",
+      "formula": "∮ B·dl = μ₀I_enclosed",
+      "description": "The magnetic field around an electric current is proportional to the current flowing through a closed loop.",
+      "explanation": "Electric currents generate magnetic fields. The stronger the current, the stronger the magnetic field.",
+      "examples": [
+        "Electromagnets in cranes",
+        "Magnetic coils in motors",
+        "MRI machines"
+      ],
+      "real_world_applications": [
+        "Electric motors",
+        "Transformers",
+        "Magnetic resonance imaging"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Faraday's Law of Induction",
+      "category": "Electromagnetism",
+      "difficulty": "Intermediate",
+      "formula": "ε = -dΦ/dt",
+      "description": "A changing magnetic flux through a loop induces an electromotive force (EMF) in the loop.",
+      "explanation": "Moving magnets or changing magnetic fields generate electric currents. This is the basis of electromagnetic induction.",
+      "examples": [
+        "Generators converting motion to electricity",
+        "Transformer operation",
+        "Induction cooktops"
+      ],
+      "real_world_applications": [
+        "Power generation",
+        "Wireless charging",
+        "Metal detectors"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Young's Double Slit Experiment",
+      "category": "Quantum Mechanics",
+      "difficulty": "Intermediate",
+      "formula": "Path difference = nλ",
+      "description": "Light passing through two slits creates an interference pattern, demonstrating wave-particle duality.",
+      "explanation": "Light behaves as both a wave (creating interference) and a particle. This experiment is fundamental to quantum mechanics.",
+      "examples": [
+        "Wave interference patterns",
+        "Quantum superposition",
+        "Diffraction patterns"
+      ],
+      "real_world_applications": [
+        "Optical instruments",
+        "Quantum computing",
+        "Spectroscopy"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Doppler Effect",
+      "category": "Waves",
+      "difficulty": "Intermediate",
+      "formula": "f' = f(v ± v_observer)/(v ∓ v_source)",
+      "description": "The frequency of a wave changes when the source or observer is moving relative to each other.",
+      "explanation": "Sound/light appears higher pitched when approaching and lower pitched when receding.",
+      "examples": [
+        "Ambulance siren pitch change",
+        "Redshift of receding stars",
+        "Radar speed guns"
+      ],
+      "real_world_applications": [
+        "Medical ultrasound",
+        "Astronomy",
+        "Traffic enforcement"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Bernoulli's Principle",
+      "category": "Fluid Dynamics",
+      "difficulty": "Intermediate",
+      "formula": "P + ½ρv² + ρgh = constant",
+      "description": "In flowing fluids, pressure decreases as velocity increases.",
+      "explanation": "Fast-moving fluids have lower pressure than slow-moving ones. This explains lift generation.",
+      "examples": [
+        "Airplane wing lift",
+        "Paper rising between hands",
+        "Sailing with curved sails"
+      ],
+      "real_world_applications": [
+        "Aircraft design",
+        "Plumbing systems",
+        "Hydraulic systems"
+      ]
+    }
+  ],
+  "advanced_level": [
+    {
+      "id": 201,
+      "name": "Einstein's Theory of Special Relativity",
+      "category": "Relativity",
+      "difficulty": "Advanced",
+      "formula": "E = mc²",
+      "description": "The laws of physics are invariant in all inertial reference frames, and the speed of light is constant in all frames.",
+      "explanation": "Time dilates, length contracts, and mass increases at high velocities. Energy and mass are interconvertible.",
+      "examples": [
+        "Particle accelerators",
+        "GPS satellites time correction",
+        "Nuclear energy generation"
+      ],
+      "real_world_applications": [
+        "Nuclear energy",
+        "Particle physics",
+        "GPS systems"
+      ]
+    },
+    {
+      "id": 202,
+      "name": "Einstein's Theory of General Relativity",
+      "category": "Relativity",
+      "difficulty": "Advanced",
+      "formula": "Rμν - ½gμνR + Λgμν = (8πG/c⁴)Tμν",
+      "description": "Gravity is not a force but a curvature of spacetime caused by mass and energy.",
+      "explanation": "Massive objects warp spacetime around them. Objects follow geodesics (shortest paths) in curved spacetime.",
+      "examples": [
+        "Black holes",
+        "Gravitational lensing",
+        "Mercury's orbital precession"
+      ],
+      "real_world_applications": [
+        "Gravitational wave detection",
+        "Cosmology",
+        "Precision GPS"
+      ]
+    },
+    {
+      "id": 203,
+      "name": "Heisenberg Uncertainty Principle",
+      "category": "Quantum Mechanics",
+      "difficulty": "Advanced",
+      "formula": "Δx·Δp ≥ ℏ/2",
+      "description": "You cannot simultaneously know both the exact position and exact momentum of a particle with arbitrary precision.",
+      "explanation": "There is a fundamental limit to how precisely certain pairs of properties can be known. The more precisely you know position, the less you know momentum.",
+      "examples": [
+        "Electron orbitals in atoms",
+        "Quantum tunneling",
+        "Energy-time uncertainty"
+      ],
+      "real_world_applications": [
+        "Atomic physics",
+        "Semiconductor design",
+        "Quantum computing"
+      ]
+    },
+    {
+      "id": 204,
+      "name": "Schrödinger's Equation",
+      "category": "Quantum Mechanics",
+      "difficulty": "Advanced",
+      "formula": "iℏ∂ψ/∂t = -ℏ²/2m ∇²ψ + Vψ",
+      "description": "The fundamental equation of quantum mechanics describing how the quantum state of a physical system changes over time.",
+      "explanation": "This equation determines the wave function ψ which contains all information about a quantum system. Solving it reveals energy levels and particle behavior.",
+      "examples": [
+        "Hydrogen atom energy levels",
+        "Quantum tunneling",
+        "Particle in a box"
+      ],
+      "real_world_applications": [
+        "Atomic spectroscopy",
+        "Laser physics",
+        "Quantum computing"
+      ]
+    },
+    {
+      "id": 205,
+      "name": "Maxwell's Equations",
+      "category": "Electromagnetism",
+      "difficulty": "Advanced",
+      "formula": "∇·E = ρ/ε₀, ∇·B = 0, ∇×E = -∂B/∂t, ∇×B = μ₀J + μ₀ε₀∂E/∂t",
+      "description": "Four fundamental equations describing how electric and magnetic fields behave and interact.",
+      "explanation": "These equations unify electricity, magnetism, and light. They predict electromagnetic waves traveling at the speed of light.",
+      "examples": [
+        "Radio waves",
+        "Visible light",
+        "X-rays and gamma rays"
+      ],
+      "real_world_applications": [
+        "Radio transmission",
+        "Optics",
+        "Power distribution"
+      ]
+    },
+    {
+      "id": 206,
+      "name": "Planck's Equation (Energy Quantization)",
+      "category": "Quantum Mechanics",
+      "difficulty": "Advanced",
+      "formula": "E = hf = hc/λ",
+      "description": "Energy of a photon is proportional to its frequency. Energy comes in discrete packets called quanta.",
+      "explanation": "Light consists of photons with energy determined by frequency. This explains the photoelectric effect and atomic spectra.",
+      "examples": [
+        "Photoelectric effect",
+        "Photosynthesis in plants",
+        "Solar cells"
+      ],
+      "real_world_applications": [
+        "Solar energy",
+        "Photography",
+        "Spectroscopy"
+      ]
+    },
+    {
+      "id": 207,
+      "name": "De Broglie Wavelength",
+      "category": "Quantum Mechanics",
+      "difficulty": "Advanced",
+      "formula": "λ = h/p = h/(mv)",
+      "description": "Particles have associated wavelengths inversely proportional to their momentum.",
+      "explanation": "All matter has wave properties. Heavier or faster particles have shorter wavelengths, while light particles have longer wavelengths.",
+      "examples": [
+        "Electron diffraction",
+        "Neutron scattering",
+        "Electron microscopes"
+      ],
+      "real_world_applications": [
+        "Electron microscopy",
+        "Crystallography",
+        "Materials science"
+      ]
+    },
+    {
+      "id": 208,
+      "name": "Grand Unified Theory (GUT)",
+      "category": "Particle Physics",
+      "difficulty": "Advanced",
+      "formula": "Unification at 10¹⁵ GeV",
+      "description": "A theoretical framework attempting to unify electromagnetic, weak, and strong nuclear forces.",
+      "explanation": "At extremely high energies, the three forces merge into a single unified force. String theory extends this further.",
+      "examples": [
+        "Proton decay predictions",
+        "Magnetic monopoles",
+        "Unification symmetry breaking"
+      ],
+      "real_world_applications": [
+        "Cosmology (early universe)",
+        "Particle accelerators",
+        "High-energy physics"
+      ]
+    },
+    {
+      "id": 209,
+      "name": "Cosmic Microwave Background (CMB) Radiation",
+      "category": "Cosmology",
+      "difficulty": "Advanced",
+      "formula": "T = 2.725 K",
+      "description": "The CMB is remnant thermal radiation from the early universe, approximately 380,000 years after the Big Bang.",
+      "explanation": "This leftover heat from the Big Bang fills all of space. Its uniform temperature provides strong evidence for the Big Bang theory.",
+      "examples": [
+        "Static on old TVs",
+        "Universe age determination",
+        "Dark matter evidence"
+      ],
+      "real_world_applications": [
+        "Cosmological models",
+        "Dark energy studies",
+        "Universe structure mapping"
+      ]
+    },
+    {
+      "id": 210,
+      "name": "String Theory",
+      "category": "Theoretical Physics",
+      "difficulty": "Advanced",
+      "formula": "10 or 11 dimensions",
+      "description": "Fundamental particles are not points but tiny vibrating strings in a higher-dimensional space.",
+      "explanation": "Different vibrational modes of strings correspond to different particles. String theory potentially unifies quantum mechanics and general relativity.",
+      "examples": [
+        "Vibrating string modes",
+        "Supersymmetry",
+        "Extra dimensions"
+      ],
+      "real_world_applications": [
+        "Quantum gravity research",
+        "Black hole thermodynamics",
+        "Fundamental physics"
+      ]
+    }
+  ]
+}
