@@ -1,0 +1,640 @@
+{
+  "beginner_quizzes": [
+    {
+      "id": 1,
+      "law_id": 1,
+      "question": "What does Newton's First Law of Motion state?",
+      "type": "multiple_choice",
+      "options": [
+        "Force equals mass times acceleration",
+        "An object at rest stays at rest unless acted upon by an external force",
+        "Every action has an equal and opposite reaction",
+        "All objects fall at the same rate"
+      ],
+      "correct_answer": 1,
+      "explanation": "Newton's First Law describes inertia - objects maintain their state of motion without external forces."
+    },
+    {
+      "id": 2,
+      "law_id": 1,
+      "question": "True or False: A car moving at constant velocity has no forces acting on it.",
+      "type": "true_false",
+      "correct_answer": false,
+      "explanation": "False. Even at constant velocity, forces are acting (balanced). Acceleration is zero, not force."
+    },
+    {
+      "id": 3,
+      "law_id": 2,
+      "question": "If you apply the same force to a 1 kg ball and a 10 kg ball, which accelerates more?",
+      "type": "multiple_choice",
+      "options": [
+        "The 10 kg ball",
+        "The 1 kg ball",
+        "Both accelerate equally",
+        "Neither accelerates"
+      ],
+      "correct_answer": 1,
+      "explanation": "F = ma, so the lighter object (1 kg) accelerates more with the same force."
+    },
+    {
+      "id": 4,
+      "law_id": 2,
+      "question": "What is the SI unit of force in F = ma?",
+      "type": "multiple_choice",
+      "options": [
+        "Kilogram (kg)",
+        "Newton (N)",
+        "Joule (J)",
+        "Watt (W)"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Newton is the SI unit of force, defined as kg·m/s²."
+    },
+    {
+      "id": 5,
+      "law_id": 3,
+      "question": "In Newton's Third Law, action and reaction forces are:",
+      "type": "multiple_choice",
+      "options": [
+        "Equal in magnitude but opposite in direction",
+        "Acting on the same object",
+        "Always at rest",
+        "Unbalanced forces"
+      ],
+      "correct_answer": 0,
+      "explanation": "Newton's Third Law states forces come in pairs - equal in magnitude, opposite in direction, acting on different objects."
+    },
+    {
+      "id": 6,
+      "law_id": 3,
+      "question": "True or False: When you jump, your legs push down on Earth, and Earth pushes up on you equally.",
+      "type": "true_false",
+      "correct_answer": true,
+      "explanation": "True. This is Newton's Third Law in action - both experience equal and opposite forces."
+    },
+    {
+      "id": 7,
+      "law_id": 4,
+      "question": "According to the Law of Universal Gravitation, if distance doubles, how does gravity change?",
+      "type": "multiple_choice",
+      "options": [
+        "Increases by 4 times",
+        "Decreases to 1/4",
+        "Stays the same",
+        "Increases to 2 times"
+      ],
+      "correct_answer": 1,
+      "explanation": "Gravity follows inverse square law: F ∝ 1/r². Doubling distance means 1/4 the force."
+    },
+    {
+      "id": 8,
+      "law_id": 4,
+      "question": "What is the value of gravitational acceleration on Earth's surface?",
+      "type": "multiple_choice",
+      "options": [
+        "5.8 m/s²",
+        "9.8 m/s²",
+        "19.6 m/s²",
+        "15.3 m/s²"
+      ],
+      "correct_answer": 1,
+      "explanation": "On Earth, gravitational acceleration is approximately 9.8 m/s² or about 10 m/s²."
+    },
+    {
+      "id": 9,
+      "law_id": 5,
+      "question": "What does the Law of Conservation of Energy state?",
+      "type": "multiple_choice",
+      "options": [
+        "Energy is always increasing",
+        "Energy can be created or destroyed",
+        "Energy cannot be created or destroyed, only converted",
+        "Energy is always decreasing"
+      ],
+      "correct_answer": 2,
+      "explanation": "Energy transforms between forms (kinetic, potential, thermal, etc.) but total energy remains constant."
+    },
+    {
+      "id": 10,
+      "law_id": 5,
+      "question": "True or False: A swinging pendulum converts potential energy to kinetic energy and back.",
+      "type": "true_false",
+      "correct_answer": true,
+      "explanation": "True. At the highest point, PE is maximum and KE is zero. At the lowest point, KE is maximum and PE is zero."
+    },
+    {
+      "id": 11,
+      "law_id": 6,
+      "question": "Hooke's Law describes the behavior of:",
+      "type": "multiple_choice",
+      "options": [
+        "Magnetic fields",
+        "Electric charges",
+        "Springs and elastic materials",
+        "Gravitational forces"
+      ],
+      "correct_answer": 2,
+      "explanation": "Hooke's Law (F = -kx) describes how springs resist deformation proportionally to displacement."
+    },
+    {
+      "id": 12,
+      "law_id": 6,
+      "question": "In Hooke's Law F = -kx, what does the negative sign represent?",
+      "type": "multiple_choice",
+      "options": [
+        "Negative force",
+        "Restoring force opposite to displacement",
+        "Always decreasing",
+        "Negative mass"
+      ],
+      "correct_answer": 1,
+      "explanation": "The negative sign indicates the restoring force opposes the displacement."
+    },
+    {
+      "id": 13,
+      "law_id": 7,
+      "question": "Ohm's Law states: V = IR. If you increase resistance with constant current, what happens to voltage?",
+      "type": "multiple_choice",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Stays the same",
+        "Becomes zero"
+      ],
+      "correct_answer": 1,
+      "explanation": "V = IR means if R increases and I stays constant, V must increase proportionally."
+    },
+    {
+      "id": 14,
+      "law_id": 7,
+      "question": "True or False: A resistor with higher resistance allows more current to flow for the same voltage.",
+      "type": "true_false",
+      "correct_answer": false,
+      "explanation": "False. From V = IR (or I = V/R), higher resistance means lower current for same voltage."
+    },
+    {
+      "id": 15,
+      "law_id": 8,
+      "question": "Snell's Law describes the bending of light called:",
+      "type": "multiple_choice",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Diffraction",
+        "Dispersion"
+      ],
+      "correct_answer": 1,
+      "explanation": "Refraction is the bending of light when it passes between materials with different refractive indices."
+    },
+    {
+      "id": 16,
+      "law_id": 8,
+      "question": "True or False: A spoon appears bent when placed in water due to refraction of light.",
+      "type": "true_false",
+      "correct_answer": true,
+      "explanation": "True. Light bends at the water-air interface, making the submerged part appear bent or displaced."
+    }
+  ],
+  "intermediate_quizzes": [
+    {
+      "id": 101,
+      "law_id": 101,
+      "question": "Newton's Law of Cooling applies to which type of process?",
+      "type": "multiple_choice",
+      "options": [
+        "Heating an object",
+        "Cooling an object to ambient temperature",
+        "Maintaining constant temperature",
+        "Accelerating particles"
+      ],
+      "correct_answer": 1,
+      "explanation": "Newton's Law of Cooling describes how objects cool down toward ambient temperature over time."
+    },
+    {
+      "id": 102,
+      "law_id": 101,
+      "question": "True or False: According to Newton's Law of Cooling, cooling rate is constant throughout the process.",
+      "type": "true_false",
+      "correct_answer": false,
+      "explanation": "False. Cooling rate decreases as temperature approaches ambient temperature (exponential decay)."
+    },
+    {
+      "id": 103,
+      "law_id": 102,
+      "question": "Boyle's Law states that at constant temperature, pressure and volume are:",
+      "type": "multiple_choice",
+      "options": [
+        "Directly proportional",
+        "Inversely proportional",
+        "Equal",
+        "Independent"
+      ],
+      "correct_answer": 1,
+      "explanation": "PV = constant, so pressure and volume are inversely proportional at constant temperature."
+    },
+    {
+      "id": 104,
+      "law_id": 102,
+      "question": "What happens to pressure when you compress a gas to half its volume at constant temperature?",
+      "type": "multiple_choice",
+      "options": [
+        "Pressure doubles",
+        "Pressure halves",
+        "Pressure stays the same",
+        "Pressure becomes zero"
+      ],
+      "correct_answer": 0,
+      "explanation": "From PV = constant, if V becomes V/2, then P must become 2P to maintain the product."
+    },
+    {
+      "id": 105,
+      "law_id": 103,
+      "question": "Charles's Law applies to which process?",
+      "type": "multiple_choice",
+      "options": [
+        "Constant pressure heating/cooling of gas",
+        "Constant temperature compression",
+        "Isothermal process",
+        "Phase change"
+      ],
+      "correct_answer": 0,
+      "explanation": "Charles's Law: V/T = constant at constant pressure. Volume changes with temperature."
+    },
+    {
+      "id": 106,
+      "law_id": 103,
+      "question": "True or False: A hot air balloon rises because the air inside is less dense than outside air.",
+      "type": "true_false",
+      "correct_answer": true,
+      "explanation": "True. Heating causes air to expand (Charles's Law), making it less dense, causing buoyancy."
+    },
+    {
+      "id": 107,
+      "law_id": 104,
+      "question": "Ampere's Law relates electric current to:",
+      "type": "multiple_choice",
+      "options": [
+        "Electric voltage",
+        "Magnetic field",
+        "Light waves",
+        "Temperature change"
+      ],
+      "correct_answer": 1,
+      "explanation": "Ampere's Law describes how electric currents generate magnetic fields."
+    },
+    {
+      "id": 108,
+      "law_id": 104,
+      "question": "Which device uses Ampere's Law principle to function?",
+      "type": "multiple_choice",
+      "options": [
+        "Thermometer",
+        "Electromagnet",
+        "Prism",
+        "Battery"
+      ],
+      "correct_answer": 1,
+      "explanation": "Electromagnets use electrical current to create magnetic fields (Ampere's Law)."
+    },
+    {
+      "id": 109,
+      "law_id": 105,
+      "question": "Faraday's Law of Induction describes how _____ can induce _____.",
+      "type": "multiple_choice",
+      "options": [
+        "Gravity induces light",
+        "Light induces heat",
+        "Changing magnetic field induces electric field",
+        "Heat induces pressure"
+      ],
+      "correct_answer": 2,
+      "explanation": "Faraday's Law: ε = -dΦ/dt. A changing magnetic flux induces an electromotive force."
+    },
+    {
+      "id": 110,
+      "law_id": 105,
+      "question": "True or False: Generators convert mechanical energy to electrical energy using Faraday's Law.",
+      "type": "true_false",
+      "correct_answer": true,
+      "explanation": "True. Generators rotate coils in magnetic fields, creating changing flux that induces electrical current."
+    },
+    {
+      "id": 111,
+      "law_id": 106,
+      "question": "Young's Double Slit Experiment proves that light has:",
+      "type": "multiple_choice",
+      "options": [
+        "Only particle properties",
+        "Only wave properties",
+        "Both wave and particle properties",
+        "Neither property"
+      ],
+      "correct_answer": 2,
+      "explanation": "The experiment demonstrates wave interference (wave property) of light, supporting wave-particle duality."
+    },
+    {
+      "id": 112,
+      "law_id": 106,
+      "question": "In Young's Double Slit Experiment, bright fringes occur where:",
+      "type": "multiple_choice",
+      "options": [
+        "Waves interfere destructively",
+        "Waves interfere constructively",
+        "No light reaches",
+        "Light is absorbed"
+      ],
+      "correct_answer": 1,
+      "explanation": "Constructive interference (path difference = nλ) creates bright fringes."
+    },
+    {
+      "id": 113,
+      "law_id": 107,
+      "question": "The Doppler Effect explains why a siren sounds higher-pitched when:",
+      "type": "multiple_choice",
+      "options": [
+        "Moving away from you",
+        "Approaching you",
+        "At rest",
+        "Very far away"
+      ],
+      "correct_answer": 1,
+      "explanation": "When the source approaches, wavelengths compress, increasing frequency and pitch."
+    },
+    {
+      "id": 114,
+      "law_id": 107,
+      "question": "True or False: The Doppler Effect applies to light as well as sound.",
+      "type": "true_false",
+      "correct_answer": true,
+      "explanation": "True. Receding stars appear redshifted, approaching ones appear blueshifted due to Doppler Effect."
+    },
+    {
+      "id": 115,
+      "law_id": 108,
+      "question": "Bernoulli's Principle explains how airplane wings generate lift:",
+      "type": "multiple_choice",
+      "options": [
+        "Curved wings are more beautiful",
+        "Fast-moving air over top has lower pressure than slow-moving air below",
+        "Wings are very light",
+        "Engines push air down"
+      ],
+      "correct_answer": 1,
+      "explanation": "Bernoulli's Principle: P + ½ρv² = constant. Fast flow means low pressure."
+    },
+    {
+      "id": 116,
+      "law_id": 108,
+      "question": "True or False: Bernoulli's Principle only applies to water, not air.",
+      "type": "true_false",
+      "correct_answer": false,
+      "explanation": "False. Bernoulli's Principle applies to all fluids - both liquids and gases."
+    }
+  ],
+  "advanced_quizzes": [
+    {
+      "id": 201,
+      "law_id": 201,
+      "question": "What is the fundamental principle of Special Relativity?",
+      "type": "multiple_choice",
+      "options": [
+        "Gravity is a force",
+        "The speed of light is constant in all inertial reference frames",
+        "Time always flows forward",
+        "Energy always increases"
+      ],
+      "correct_answer": 1,
+      "explanation": "Special Relativity postulates that the speed of light (c) is invariant in all inertial frames."
+    },
+    {
+      "id": 202,
+      "law_id": 201,
+      "question": "In Special Relativity, as velocity approaches light speed, time:",
+      "type": "multiple_choice",
+      "options": [
+        "Speeds up",
+        "Slows down (dilates)",
+        "Remains constant",
+        "Stops completely"
+      ],
+      "correct_answer": 1,
+      "explanation": "Time dilation: time passes slower for moving objects, especially at speeds near c."
+    },
+    {
+      "id": 203,
+      "law_id": 201,
+      "question": "What does E = mc² tell us about matter and energy?",
+      "type": "multiple_choice",
+      "options": [
+        "Energy equals mass plus velocity squared",
+        "Matter and energy are interchangeable; small mass equals large energy",
+        "Energy is only kinetic",
+        "Mass increases with speed"
+      ],
+      "correct_answer": 1,
+      "explanation": "E = mc² shows that a small amount of mass equals enormous energy due to c² being huge."
+    },
+    {
+      "id": 204,
+      "law_id": 202,
+      "question": "General Relativity describes gravity as:",
+      "type": "multiple_choice",
+      "options": [
+        "A force between masses (Newton's view)",
+        "A curvature of spacetime caused by mass and energy",
+        "Only between heavy objects",
+        "Proportional to temperature"
+      ],
+      "correct_answer": 1,
+      "explanation": "General Relativity: massive objects curve spacetime; other objects follow geodesics in this curved space."
+    },
+    {
+      "id": 205,
+      "law_id": 202,
+      "question": "True or False: In General Relativity, light is affected by gravity.",
+      "type": "true_false",
+      "correct_answer": true,
+      "explanation": "True. Light follows geodesics in curved spacetime, causing gravitational lensing."
+    },
+    {
+      "id": 206,
+      "law_id": 203,
+      "question": "The Heisenberg Uncertainty Principle states that:",
+      "type": "multiple_choice",
+      "options": [
+        "We can measure both position and momentum exactly",
+        "Position and momentum cannot both be known precisely simultaneously",
+        "All quantum measurements are wrong",
+        "Particles have no position"
+      ],
+      "correct_answer": 1,
+      "explanation": "Δx·Δp ≥ ℏ/2: more precise position knowledge means less precise momentum knowledge."
+    },
+    {
+      "id": 207,
+      "law_id": 203,
+      "question": "Which pair violates Heisenberg's Uncertainty Principle if both are precisely known?",
+      "type": "multiple_choice",
+      "options": [
+        "Energy and mass",
+        "Force and velocity",
+        "Position and momentum",
+        "Temperature and pressure"
+      ],
+      "correct_answer": 2,
+      "explanation": "Position and momentum are conjugate variables in Heisenberg's Uncertainty Principle."
+    },
+    {
+      "id": 208,
+      "law_id": 204,
+      "question": "Schrödinger's Equation in quantum mechanics describes:",
+      "type": "multiple_choice",
+      "options": [
+        "How particles move deterministically",
+        "How the wave function evolves in time",
+        "Energy conservation only",
+        "Gravitational interactions"
+      ],
+      "correct_answer": 1,
+      "explanation": "Schrödinger's Equation: iℏ∂ψ/∂t = Ĥψ determines how quantum states evolve."
+    },
+    {
+      "id": 209,
+      "law_id": 204,
+      "question": "True or False: The wave function ψ gives the exact position of a particle.",
+      "type": "true_false",
+      "correct_answer": false,
+      "explanation": "False. |ψ|² gives probability density, not exact position (related to Uncertainty Principle)."
+    },
+    {
+      "id": 210,
+      "law_id": 205,
+      "question": "Maxwell's Equations fundamentally show that:",
+      "type": "multiple_choice",
+      "options": [
+        "Electricity and magnetism are separate forces",
+        "Electricity and magnetism are unified; light is electromagnetic",
+        "Light travels infinitely fast",
+        "Gravity and electromagnetism are equivalent"
+      ],
+      "correct_answer": 1,
+      "explanation": "Maxwell's Equations unify E and B fields, predicting electromagnetic waves at speed c."
+    },
+    {
+      "id": 211,
+      "law_id": 205,
+      "question": "How many fundamental Maxwell Equations are there?",
+      "type": "multiple_choice",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correct_answer": 2,
+      "explanation": "There are four Maxwell Equations (Gauss, No monopoles, Faraday, Ampere-Maxwell)."
+    },
+    {
+      "id": 212,
+      "law_id": 206,
+      "question": "Planck's Equation E = hf means energy is:",
+      "type": "multiple_choice",
+      "options": [
+        "Continuous",
+        "Quantized (in discrete packets)",
+        "Proportional to wavelength only",
+        "Always constant"
+      ],
+      "correct_answer": 1,
+      "explanation": "Energy is quantized: E comes in packets of hf, where h is Planck's constant."
+    },
+    {
+      "id": 213,
+      "law_id": 206,
+      "question": "True or False: Blue light has more energy than red light according to Planck's Equation.",
+      "type": "true_false",
+      "correct_answer": true,
+      "explanation": "True. Blue light has higher frequency, so E = hf is larger for blue than red."
+    },
+    {
+      "id": 214,
+      "law_id": 207,
+      "question": "De Broglie's Wavelength λ = h/p means that particles with _____ momentum have _____ wavelength.",
+      "type": "multiple_choice",
+      "options": [
+        "Higher, shorter",
+        "Higher, longer",
+        "Lower, shorter",
+        "The momentum doesn't affect wavelength"
+      ],
+      "correct_answer": 0,
+      "explanation": "Higher momentum p means shorter wavelength λ (inverse relationship)."
+    },
+    {
+      "id": 215,
+      "law_id": 207,
+      "question": "True or False: Electrons can exhibit wave-like diffraction due to de Broglie wavelength.",
+      "type": "true_false",
+      "correct_answer": true,
+      "explanation": "True. Electrons show diffraction patterns (electron microscopes use this)."
+    },
+    {
+      "id": 216,
+      "law_id": 208,
+      "question": "The Grand Unified Theory attempts to unify:",
+      "type": "multiple_choice",
+      "options": [
+        "All four fundamental forces",
+        "Electromagnetic, weak, and strong forces",
+        "Only electromagnetic force",
+        "Only gravity"
+      ],
+      "correct_answer": 1,
+      "explanation": "GUT unifies electromagnetism, weak nuclear, and strong nuclear forces at high energies."
+    },
+    {
+      "id": 217,
+      "law_id": 209,
+      "question": "The Cosmic Microwave Background (CMB) provides evidence for:",
+      "type": "multiple_choice",
+      "options": [
+        "The Big Bang theory",
+        "Steady State universe",
+        "Infinite universe age",
+        "Static spacetime"
+      ],
+      "correct_answer": 0,
+      "explanation": "CMB is remnant radiation from early universe, strongly supporting Big Bang theory."
+    },
+    {
+      "id": 218,
+      "law_id": 209,
+      "question": "True or False: The CMB temperature is exactly 2.725 Kelvin throughout the universe.",
+      "type": "true_false",
+      "correct_answer": true,
+      "explanation": "True. CMB has uniform temperature of approximately 2.725 K (with tiny variations)."
+    },
+    {
+      "id": 219,
+      "law_id": 210,
+      "question": "String Theory proposes that fundamental particles are actually:",
+      "type": "multiple_choice",
+      "options": [
+        "Point masses",
+        "Tiny vibrating one-dimensional strings",
+        "Solid spheres",
+        "Electromagnetic fields"
+      ],
+      "correct_answer": 1,
+      "explanation": "String Theory: particles are vibrations of tiny strings in higher-dimensional space."
+    },
+    {
+      "id": 220,
+      "law_id": 210,
+      "question": "True or False: String Theory requires extra spatial dimensions beyond our familiar three.",
+      "type": "true_false",
+      "correct_answer": true,
+      "explanation": "True. String Theory requires 10 or 11 total dimensions (compactified in most cases)."
+    }
+  ]
+}
