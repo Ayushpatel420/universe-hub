@@ -1,1 +1,1 @@
-its have all knowledge about universe and its laes 
+its have all knowledge about universe and its laws
